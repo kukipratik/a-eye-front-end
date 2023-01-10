@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Patient Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/fav.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="navBar">
+        <img src="images/logo.png" class="logo" alt="">
+    </div>
+
+    <div class="bodyPart">
+        <div class="container">
+            <div class="left">
+                <h3>Patient Details</h3>
+                <form>
+                    <span class="label">Full name</span>
+                    <input type="text" name="" placeholder="Enter name">
+                    <span class="label">Age</span>
+                    <input type="number" name="age" placeholder="Enter age">
+                    <label>
+                        <span class="label">Gender</span>
+                        <select>
+                            <option>Select...</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </label>
+                    <div class="contact">Contact Number</div>
+                    <input type="tel" name="" placeholder="Phone Number">
+                    <span class="label">Email</span>
+                    <input type="text" name="" placeholder="Enter email">
+
+                    <div class="address">Address </div>
+                    <label>
+                        <span class="label">Province</span>
+                        <select>
+                            <option>Select...</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                        </select>
+                    </label>
+                    <label>
+                        <span class="label">District</span>
+                        <select>
+                            <option>Select...</option>
+                            <option>Ktm</option>
+                            <option>Lalitpur</option>
+                            <option>Sarlahi</option>
+                        </select>
+                    </label>
+                    <div class="municipality">Municipality</div>
+                    <input type="text" name="" placeholder="Enter Municipality">
+                </form>
+            </div>
+            <div class="right">
+                <h3>Pictures</h3>
+                <form>
+                    <br> Patient Image
+
+                    <input type="file" name="" placeholder="Enter card number">
+                    <br> Left Eye Image
+                    <input type="file" name="" placeholder="Enter card number">
+                    <br> Right Eye Image
+                    <input type="file" name="" placeholder="Enter card number">
+                </form>
+                <input type="submit" class="save" name="" value="Save">
+                <input type="submit" class="cancel" name="" value="Cancel">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navBar">
+        <img src="images/logo.png" class="logo" alt="">
+        <button type="button" class="navBtn">Check Report</button>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <div class="details">
+                <div class="label"><b>Name:</b> Doctor Name</div>
+                <div class="label"><b>Ph. Num:</b> 9824982212</div>
+                <div class="label"><b>Email:</b> doctor@gmail.com</div>
+            </div>
+            <div class="buttons">
+                <button type="button" id="addPatient">Add new Patient</button>
+                <button type="button" id="logout">Log out</button>
+            </div>
+        </div>
+        <div class="patients">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Disease</th>
+                        <th>Risk%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Name">Dinesh</td>
+                        <td data-label="Age">40</td>
+                        <td data-label="Disease">Cataract</td>
+                        <td data-label="Risk%">90%</td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="Name">Kamal</td>
+                        <td data-label="Age">50</td>
+                        <td data-label="Disease">Diabetes</td>
+                        <td data-label="Risk%">80%</td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="Name">Neha</td>
+                        <td data-label="Age">60</td>
+                        <td data-label="Disease">Cataract</td>
+                        <td data-label="Risk%">70%</td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="Name">Priya</td>
+                        <td data-label="Age">30</td>
+                        <td data-label="Disease">glaucoma</td>
+                        <td data-label="Risk%">65%</td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="Name">Riya</td>
+                        <td data-label="Age">40</td>
+                        <td data-label="Disease">glaucoma</td>
+                        <td data-label="Risk%">63%</td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="Name">Ram</td>
+                        <td data-label="Age">35</td>
+                        <td data-label="Disease">Cataract</td>
+                        <td data-label="Risk%">61%</td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="Name">Shyam</td>
+                        <td data-label="Age">25</td>
+                        <td data-label="Disease">glaucoma</td>
+                        <td data-label="Risk%">60%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
